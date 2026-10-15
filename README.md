@@ -26,11 +26,11 @@ Python öğrenirken çözdüğüm algoritma sorularını tuttuğum repo.
 ## Two Sum
 **Problem:** Bir sayı listesi ve bir hedef sayı veriliyor. Toplamı hedef sayıya eşit olan iki sayının index'lerini döndür. Her girdide tam bir çözüm olduğu varsayılır ve aynı eleman iki kez kullanılamaz.
 
-**Çözüm 1(Brute Force):** İç içe döngü kullanılır(Brute Force denmesinin sebebi de budur girdi arttıkça işlem yükü artar(n^2)). İç döngüde tüm girdiyi gezerek üst döngüdeki sayı toplanıp target'a eşit mi bakılır, bu sayıların index'leri döner.
+**Çözüm 1(Brute Force):** İç içe döngü kullanılır(Brute Force denmesinin sebebi tüm sayı çiftlerinin tek tek denenmesidir). İç döngüde tüm girdiyi gezerek üst döngüdeki sayı toplanıp target'a eşit mi bakılır, bu sayıların index'leri döner.
 
 **Karmaşıklık:** Zaman O(n^2) - Alan O(1)
 
-**Çözüm 2(Hash Map):** Dick kullanılır(Avantajı; liste bir kez gezilir). Tamamlayıcı değişkeni tanımlanarak dick içinde bu tamamlayıcı var mı sorgusu yapılır. Varsa iki sayının toplamı olan index'ler return edilir, yoksa döngü sonunda o index'teki sayı dick içinde kaydedilir.
+**Çözüm 2(Hash Map):** Dict kullanılır(Avantajı; liste bir kez gezilir). Tamamlayıcı değişkeni tanımlanarak dick içinde bu tamamlayıcı var mı sorgusu yapılır. Varsa iki sayının toplamı olan index'ler return edilir, yoksa şu anki sayı index'iyle dict'e kaydedilir.
 
 **Karmaşıklık:** Zaman O(n) - Alan O(n)
 
