@@ -19,6 +19,6 @@ Python öğrenirken çözdüğüm algoritma sorularını tuttuğum repo.
 
 **Karmaşıklık:** Zaman O(n) - Alan O(n)
 
-**Örnek:** "([]{})"` → `True`, `"([)]"` → `False`
+**Örnek:** `"([]{})"` → `True`, `"([)]"` → `False`
 
 **Nasıl çalıştırılır:** `python3 parantez_dengesi.py`
