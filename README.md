@@ -8,7 +8,7 @@ Python öğrenirken çözdüğüm algoritma sorularını tuttuğum repo.
 
 **Karmaşıklık:** Zaman O(n) - Alan O(n)
 
-**Örnek:** "elma"` → `0`, `"aabb"` → `-1`
+**Örnek:** `"elma"` → `0`, `"aabb"` → `-1`
 
 **Nasıl çalıştırılır:** `python3 ilk_tekrarsiz_karakter.py`
 
