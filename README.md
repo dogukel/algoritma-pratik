@@ -30,7 +30,7 @@ Python öğrenirken çözdüğüm algoritma sorularını tuttuğum repo.
 
 **Karmaşıklık:** Zaman O(n^2) - Alan O(1)
 
-**Çözüm 2(Hash Map):** Dict kullanılır(Avantajı; liste bir kez gezilir). Tamamlayıcı değişkeni tanımlanarak dick içinde bu tamamlayıcı var mı sorgusu yapılır. Varsa iki sayının toplamı olan index'ler return edilir, yoksa şu anki sayı index'iyle dict'e kaydedilir.
+**Çözüm 2(Hash Map):** Dict kullanılır(Avantajı; liste bir kez gezilir). Tamamlayıcı değişkeni tanımlanarak dict içinde bu tamamlayıcı var mı sorgusu yapılır. Varsa iki sayının toplamı olan index'ler return edilir, yoksa şu anki sayı index'iyle dict'e kaydedilir.
 
 **Karmaşıklık:** Zaman O(n) - Alan O(n)
 
