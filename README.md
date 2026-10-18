@@ -37,3 +37,25 @@ Python öğrenirken çözdüğüm algoritma sorularını tuttuğum repo.
 **Örnek:** `[2, 7, 11, 15], 9` → `[0, 1]`
 
 **Nasıl çalıştırılır:** `python3 two_sum.py`
+
+## Valid Anagram
+**Problem:** İki string s ve t veriliyor, t, s'nin anagramıysa True, değilse False döndür.
+
+**Çözüm:** Her iki string için harfler dict'te sayılır. Döngüden önce iki dict'in uzunluk kontrolü yapılır, eşit değilse False döner. String'ler dic tiçine atılır. İki dict birbirine eşitse True, değilse False döner.
+
+**Karmaşıklık:** Zaman O(n) - Alan O(n)
+
+**Örnek:** `"elma", "lame"` → `True`, `"aab", "abb"` → `False`
+
+**Nasıl çalıştırılır:** `python3 valid_anagram.py`
+
+## Parantez Dengesi
+**Problem:** Bir sayı listesi veriliyor. Listede en az bir sayı iki kez geçiyorsa True, tüm sayılar farklıysa False döndür.
+
+**Çözüm:** Listeyi bir kez geziyorum ve gördüğüm sayıları bir dict'e kaydediyorum. Her sayıda önce "bu sayıyı daha önce gördüm mü?" diye dict'e bakıyorum, gördüysem hemen True döndürüyorum. Döngü bitene kadar tekrar çıkmazsa False döndürüyorum. Kontrolü kaydetmeden önce yapmak önemli, yoksa her sayı kendini bulur.
+
+**Karmaşıklık:** Zaman O(n) - Alan O(n)
+
+**Örnek:** `[1, 2, 3, 1]` → `True`, `[1, 2, 3, 4]` → `False`
+
+**Nasıl çalıştırılır:** `python3 contains_duplicate.py`
