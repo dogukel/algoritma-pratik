@@ -41,7 +41,7 @@ Python öğrenirken çözdüğüm algoritma sorularını tuttuğum repo.
 ## Valid Anagram
 **Problem:** İki string s ve t veriliyor, t, s'nin anagramıysa True, değilse False döndür.
 
-**Çözüm:** Her iki string için harfler dict'te sayılır. Döngüden önce iki dict'in uzunluk kontrolü yapılır, eşit değilse False döner. String'ler dic tiçine atılır. İki dict birbirine eşitse True, değilse False döner.
+**Çözüm:** Her iki string için harfler dict'te sayılır. Döngüden önce iki string'in uzunluk kontrolü yapılır, eşit değilse False döner. String'ler dic tiçine atılır. İki dict birbirine eşitse True, değilse False döner.
 
 **Karmaşıklık:** Zaman O(n) - Alan O(n)
 
@@ -49,7 +49,7 @@ Python öğrenirken çözdüğüm algoritma sorularını tuttuğum repo.
 
 **Nasıl çalıştırılır:** `python3 valid_anagram.py`
 
-## Parantez Dengesi
+## Contains Duplicate
 **Problem:** Bir sayı listesi veriliyor. Listede en az bir sayı iki kez geçiyorsa True, tüm sayılar farklıysa False döndür.
 
 **Çözüm:** Listeyi bir kez geziyorum ve gördüğüm sayıları bir dict'e kaydediyorum. Her sayıda önce "bu sayıyı daha önce gördüm mü?" diye dict'e bakıyorum, gördüysem hemen True döndürüyorum. Döngü bitene kadar tekrar çıkmazsa False döndürüyorum. Kontrolü kaydetmeden önce yapmak önemli, yoksa her sayı kendini bulur.
